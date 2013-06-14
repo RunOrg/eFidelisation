@@ -16,14 +16,14 @@ a:hover {
 	color: #26C;
 }
 
-#head {
+header {
 	background-color: white;
 	overflow: hidden;
 	height: 60px;
 	line-height: 60px;
 }
 
-#head .menu {
+header .menu {
 	float: right;
 	height: 60px;
 	line-height: 60px;
@@ -76,4 +76,27 @@ h1 {
 #logo {
 	float: left;
 	margin: 5px 5px 5px 0;
+}
+
+section {
+	margin: 40px auto;
+	width: 960px;
+}
+
+h2 {
+	width: 640px;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	font-size: 28px;
+	color: #111;
+	overflow: hidden;
+}
+
+p {
+	font-size: 16px;
+	line-height: 20px;
+	margin: 20px 0;
+	max-width: 640px;
+	color: #444;
 }
